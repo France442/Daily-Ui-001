@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+  }
+
+.card {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+
+
+  .forms{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .heading{
+    padding-top: 10px;
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+     width: 100%;
+    gap: 10px;
+  }
+
+  .input{
+    border: 1px solid gray ; 
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+  }
+.input:focus{
+    border-color: red;
+}
+.input2{
+    border: 1px solid gray ; 
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+  
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: none royalblue;
+  }
+  
+  .button{
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    width: 10rem;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
